@@ -12,7 +12,10 @@ def dictionary
   }
 end
 
-def word_subsituter
+def word_subsituter(tweets)
+  substituted_tweet = []
+  tweets.each do |tweet|
+    if tweet.keys == dictionary
 end
 
 def bulk_tweet_shortener
